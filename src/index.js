@@ -1,36 +1,17 @@
-// const element = document.createElement('h1')
-
-// element.innerHTML = 'Hello Platzi Badges!!!'
-
-// const container = document.getElementById('root')
-// container.appendChild(element)
-
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './index.css'
+import Badge from './components/Badge'
+import * as serviceWorker from './serviceWorker'
 
-// const elementJsx = <h1>Hello Platzi Badges from React!</h1>
-// const element = React.createElement('h1', {}, 'Hello Platzi Badges!!!')
-// const element = React.createElement(
-//   'a',
-//   { href: 'https://platzi.com', target: '_black' },
-//   'Ir a platzi',
-// )
-const name = 'Yomar'
-// const element = React.createElement('h1', {}, `Hola, soy ${name}`)
-// const elementJsx = <h1>Hola, soy {name}</h1>
-const elementJsx = (
-  <div>
-    <h1>Hola, soy {name}</h1>
-    <p>Soy inginiero backend</p>
-  </div>
-)
-const element = React.createElement(
-  'div',
-  {},
-  React.createElement('h1', {}, `Hola, soy ${name}`),
-  React.createElement('p', {}, 'Soy inginiero frontend'),
+ReactDOM.render(
+  <React.StrictMode>
+    <Badge />
+  </React.StrictMode>,
+  document.getElementById('root'),
 )
 
-const container = document.getElementById('root')
-// ReactDOM.render(__que__, __dónde__);
-ReactDOM.render(element, container)
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister()
