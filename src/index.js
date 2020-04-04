@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// const element = document.createElement('h1')
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// element.innerHTML = 'Hello Platzi Badges!!!'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// const container = document.getElementById('root')
+// container.appendChild(element)
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+const element = <h1>Hello Platzi Badges from React!</h1>
+
+const container = document.getElementById('root')
+
+// ReactDOM.render(__que__, __dónde__);
+ReactDOM.render(element, container)
