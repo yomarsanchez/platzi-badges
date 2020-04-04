@@ -7,9 +7,13 @@ import Badge from './components/Badge'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Badge />
-  </React.StrictMode>,
+  <Badge
+    firstName="Yomar"
+    lastName="Sánchez"
+    avatarUrl="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+    jobTitle="Full Stack Developer"
+    twitter="yomarsanchez"
+  />,
   document.getElementById('root'),
 )
 
