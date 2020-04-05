@@ -4,6 +4,22 @@ import './styles/Badge.css'
 import confLogo from '../images/badge-header.svg'
 
 class Badge extends React.Component {
+  attendantName = () => {
+    if (this.props.firstName !== '' || this.props.lastName !== '') {
+      return (
+        <h1>
+          {this.props.firstName} <br /> {this.props.lastName}
+        </h1>
+      )
+    } else {
+      return (
+        <h1>
+          Attendant <br /> Name
+        </h1>
+      )
+    }
+  }
+
   render() {
     return (
       <div className="Badge">
@@ -17,9 +33,7 @@ class Badge extends React.Component {
             src={this.props.avatarUrl}
             alt="Avatar"
           />
-          <h1>
-            {this.props.firstName} <br /> {this.props.lastName}
-          </h1>
+          {this.attendantName()}
         </div>
 
         <div className="Badge__section-info">

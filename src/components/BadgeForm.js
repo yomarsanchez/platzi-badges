@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 
 class BadgeForm extends Component {
-  state = {
-    jobTitle: 'Designer',
-  }
+  // state = {
+  //   jobTitle: 'Designer',
+  // }
 
-  handleChange = e => {
-    this.setState({
-      [e.target.name]: e.target.value,
-    })
-  }
+  // handleChange = e => {
+  //   this.setState({
+  //     [e.target.name]: e.target.value,
+  //   })
+  // }
 
   handleClick = e => {
     console.log('Button was clicked!')
@@ -18,7 +18,7 @@ class BadgeForm extends Component {
   handleSubmit = e => {
     e.preventDefault()
     console.log('Form was submitted!')
-    console.log(this.state)
+    console.log(this.props.formValues)
   }
 
   render() {
@@ -33,9 +33,9 @@ class BadgeForm extends Component {
               className="form-control"
               id="firstName"
               name="firstName"
-              value={this.state.firstName}
+              value={this.props.formValues.firstName}
               maxLength="255"
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
             />
           </div>
           <div className="form-group">
@@ -45,9 +45,9 @@ class BadgeForm extends Component {
               className="form-control"
               id="lastName"
               name="lastName"
-              value={this.state.lastName}
+              value={this.props.formValues.lastName}
               maxLength="255"
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
             />
           </div>
           <div className="form-group">
@@ -57,9 +57,9 @@ class BadgeForm extends Component {
               className="form-control"
               id="email"
               name="email"
-              value={this.state.email}
+              value={this.props.formValues.email}
               maxLength="255"
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
             />
           </div>
           <div className="form-group">
@@ -69,9 +69,9 @@ class BadgeForm extends Component {
               className="form-control"
               id="jobTitle"
               name="jobTitle"
-              value={this.state.jobTitle}
+              value={this.props.formValues.jobTitle}
               maxLength="255"
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
             />
           </div>
           <div className="form-group">
@@ -81,9 +81,9 @@ class BadgeForm extends Component {
               className="form-control"
               id="twitter"
               name="twitter"
-              value={this.state.twitter}
+              value={this.props.formValues.twitter}
               maxLength="255"
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
             />
           </div>
           <button className="btn btn-primary" onClick={this.handleClick}>
