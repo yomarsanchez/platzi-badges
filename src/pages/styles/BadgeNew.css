@@ -1,8 +1,24 @@
 .BadgeNew__hero {
   width: 100%;
-  padding: 2rem 4rem;
+  padding: 2rem 0;
   background: url('../../images/stars.svg'), #1b1b25;
   background-repeat: repeat;
   margin-bottom: 1rem;
-  color: #ffffff;
+}
+
+.BadgeNew__hero > .BadgeNew__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BadgeNew__container {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.BadgeNew_conf-logo {
+  margin-bottom: 2rem;
 }

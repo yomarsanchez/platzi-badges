@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import './styles/BadgeNew.css'
-import heroLogo from '../images/platziconf-logo.svg'
+import confLogo from '../images/platziconf-logo.svg'
 import Navbar from '../components/Navbar'
 import Badge from '../components/Badge'
 import BadgeForm from '../components/BadgeForm'
 
-class BadgeNew extends React.Component {
+class BadgeNew extends Component {
   state = {
     form: {
       firstName: '',
@@ -28,11 +28,13 @@ class BadgeNew extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="BadgeNew">
         <Navbar />
 
         <div className="BadgeNew__hero">
-          <img className="img-fluid" src={heroLogo} alt="Hero Logo" />
+          <div className="BadgeNew__container">
+            <img className="BadgeNew_conf-logo" src={confLogo} alt="Logo" />
+          </div>
         </div>
 
         <div className="container">
