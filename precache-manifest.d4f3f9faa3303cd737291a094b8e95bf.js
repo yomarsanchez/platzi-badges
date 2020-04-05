@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd9c37055eb6d0d9b2d5ae44e8c3806a",
+    "revision": "d17d5886e4ff4e08a276329714a5a0b0",
     "url": "/platzi-badges/index.html"
   },
   {
-    "revision": "9f9a284aa30cd4e4c645",
+    "revision": "d20cc5fda5f9bd5f2e90",
     "url": "/platzi-badges/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "d6d7cf254585be8c57f1",
-    "url": "/platzi-badges/static/css/main.d6525415.chunk.css"
+    "revision": "e6662858b2fc2ffc46da",
+    "url": "/platzi-badges/static/css/main.f019a514.chunk.css"
   },
   {
-    "revision": "9f9a284aa30cd4e4c645",
-    "url": "/platzi-badges/static/js/2.6485b7ec.chunk.js"
+    "revision": "d20cc5fda5f9bd5f2e90",
+    "url": "/platzi-badges/static/js/2.1f6b5726.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/platzi-badges/static/js/2.6485b7ec.chunk.js.LICENSE.txt"
+    "url": "/platzi-badges/static/js/2.1f6b5726.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6d7cf254585be8c57f1",
-    "url": "/platzi-badges/static/js/main.f804f54e.chunk.js"
+    "revision": "e6662858b2fc2ffc46da",
+    "url": "/platzi-badges/static/js/main.96ae9694.chunk.js"
   },
   {
     "revision": "a4adcb377b2fb9bb0003",
     "url": "/platzi-badges/static/js/runtime-main.65d2cca1.js"
+  },
+  {
+    "revision": "973f5842f0c37eacb2eb491c62fc0032",
+    "url": "/platzi-badges/static/media/badge-header.973f5842.svg"
   },
   {
     "revision": "0026b862f1b05c3e27d471ba85c6ebc5",
@@ -38,9 +42,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d17360a685ac86023b90aa14fd2c62d",
     "url": "/platzi-badges/static/media/stars.1d17360a.svg"
-  },
-  {
-    "revision": "c9f1200836515fd4bacd29160be78732",
-    "url": "/platzi-badges/static/media/twitter.c9f12008.svg"
   }
 ]);
