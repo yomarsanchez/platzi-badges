@@ -16,7 +16,7 @@ class BadgesList extends Component {
                       src={badge.avatarUrl}
                       className="rounded-circle"
                       alt={badge.firstName}
-                      width="75"
+                      width="80%"
                     />
                   </div>
                   <div className="col-10">
