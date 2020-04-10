@@ -14,7 +14,7 @@ class Badge extends React.Component {
     } else {
       return (
         <h1>
-          Attendant <br /> Name
+          FIRST_NAME <br /> LAST_NAME
         </h1>
       )
     }
@@ -41,7 +41,7 @@ class Badge extends React.Component {
           <div>@{this.props.twitter}</div>
         </div>
 
-        <div className="Badge__footer">#platziconf</div>
+        <div className="Badge__footer">#PlatziConf</div>
       </div>
     )
   }

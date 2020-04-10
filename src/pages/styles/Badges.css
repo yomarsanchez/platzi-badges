@@ -28,30 +28,3 @@
   justify-content: flex-end;
   margin-bottom: 1rem;
 }
-
-.Badges__list {
-  width: 100%;
-}
-
-.Badges__list-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border-radius: 0.25rem;
-  margin-bottom: 1rem !important;
-  box-shadow: 1px 2px 9px 0px #d6d6d6;
-}
-
-.Badges__list-card__body {
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 0.5rem;
-}
-
-.twitter {
-  color: #03a9f4;
-}

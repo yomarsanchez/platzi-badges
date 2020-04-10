@@ -1,0 +1,40 @@
+.Error404 {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  background: url('../../images/stars.svg'), #1b1b25;
+  background-repeat: repeat;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .Error404 {
+    padding-top: 40px;
+  }
+}
+
+.Error404__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.Error404__container h4 {
+  font-size: 40px;
+}
+
+.Error404__container p {
+  font-size: 18px;
+}
+
+.Error404__image {
+  max-width: 340px;
+}
+
+.Error404__image img {
+  width: 100%;
+}
